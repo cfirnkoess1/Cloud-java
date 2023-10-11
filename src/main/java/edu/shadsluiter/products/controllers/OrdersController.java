@@ -1,5 +1,7 @@
 package edu.shadsluiter.products.controllers;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -10,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import edu.shadsluiter.products.data.OrdersDataService;
 import edu.shadsluiter.products.models.OrderModel;
-import jakarta.validation.Valid;
 
 import org.springframework.web.bind.annotation.PostMapping; 
 
